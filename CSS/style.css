@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: flex-end;
   flex-shrink: 0;
-  width: 1280px;
+  /*width: 1280px;*/
   height: 48px;
   position: relative;
   overflow: hidden;
@@ -134,7 +134,8 @@
   position: center;
 }
 .button2 {
-  background: #ffc102;
+  /*background: #ffc102; changed to set contrast*/
+  background: #ff7402;
   border-radius: 32px;
   padding: 8px 64px 8px 64px;
   display: flex;
@@ -168,9 +169,13 @@
   align-items: center;
   justify-content: flex-end;
   flex-shrink: 0;
-  width: 1280px;
+  /*width: 1280px;*/
   height: 48px;
-  position: relative;
+  /*position: relative;*/
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
   overflow: hidden;
 }
 .designed-by-sweta-shah {
