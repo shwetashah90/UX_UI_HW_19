@@ -1,0 +1,181 @@
+/* Header Section */
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  background: #006185;
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1280px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.about {
+  flex-shrink: 0;
+  width: 44px;
+  height: 19px;
+  position: relative;
+}
+.about2 {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Lato", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.work {
+  flex-shrink: 0;
+  width: 39px;
+  height: 19px;
+  position: relative;
+}
+.contact {
+  flex-shrink: 0;
+  width: 56px;
+  height: 19px;
+  position: relative;
+}
+
+/* Hero Section */
+.hero,
+.hero * {
+  box-sizing: border-box;
+}
+.hero {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 0px 0px 1px 0px;
+  padding: 42px 64px 42px 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 320px;
+  max-width: 620px;
+  position: relative;
+}
+.title-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.hi-i-am {
+  color: #484848;
+  text-align: left;
+  font: 700 30px "Lato", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sweta-shah {
+  color: #484848;
+  text-align: left;
+  font: 700 52px "Epilogue", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ct-as {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  background: #484848;
+  border-radius: 32px;
+  padding: 8px 48px 8px 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact1 {
+  color: #ffffff;
+  text-align: center;
+  font: 20px "Lato", sans-serif;
+  position: center;
+}
+.button2 {
+  background: #ffc102;
+  border-radius: 32px;
+  padding: 8px 64px 8px 64px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: center;
+}
+.designer-1 {
+  flex-shrink: 0;
+  width: 376px;
+  height: 245px;
+  position: relative;
+}
+
+
+/* Footer Section */
+
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  background: #006185;
+  padding: 0px 32px 0px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  width: 1280px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.designed-by-sweta-shah {
+  color: #ffffff;
+  text-align: left;
+  font: 500 16px "Lato", sans-serif;
+  position: relative;
+}
