@@ -184,3 +184,101 @@
   font: 500 16px "Lato", sans-serif;
   position: relative;
 }
+
+
+/* My UX Skills */
+.ux-skills,
+.ux-skills * {
+  box-sizing: border-box;
+}
+.ux-skills {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 0px 0px 1px 0px;
+  padding: 42px 64px 42px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.ux-skills2 {
+  color: #484848;
+  text-align: left;
+  font: 700 32px/42px "Epilogue", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1152px;
+  position: relative;
+}
+.frame-3 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-3 {
+  flex-shrink: 0;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+.design-thinking {
+  color: #000000;
+  text-align: left;
+  font: 700 24px "Lato", sans-serif;
+  position: relative;
+}
+.frame-42 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.interaction-design {
+  color: #000000;
+  text-align: left;
+  font: 700 24px "Lato", sans-serif;
+  position: relative;
+}
+.frame-5 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.information-architecture {
+  color: #000000;
+  text-align: left;
+  font: 700 24px "Lato", sans-serif;
+  position: relative;
+}
+
