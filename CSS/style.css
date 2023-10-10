@@ -153,20 +153,6 @@
   position: relative;
 }
 
-#b1 {
-  background-color: #484848; /* Default background color */
-  color: #fff; /* Default text color */
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s; /* Transition for color change */
-}
-
-#b1:hover {
-  background-color: #000000; /* New background color on hover */
-}
-
-
 /* Footer Section */
 
 .footer,
